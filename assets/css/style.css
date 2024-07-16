@@ -68,6 +68,25 @@ h6 {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+} 
+
+/*LINK NEGRITA*/
+.bold-black-link {
+  font-weight: bold;  /* Negrita */
+  color: black;       /* Color negro */
+  text-decoration: none;  /* Sin subrayado */
+}
+
+.bold-black-link:visited {
+  color: black;  /* Color negro para enlaces visitados */
+}
+
+.bold-black-link:hover {
+  color: black;  /* Color negro cuando se pasa el mouse */
+}
+
+.bold-black-link:active {
+  color: black;  /* Color negro cuando se hace clic */
 }
 
 /*--------------------------------------------------------------
