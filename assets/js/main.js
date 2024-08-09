@@ -6,6 +6,33 @@
 * License: https://bootstrapmade.com/license/
 */
 
+// Lista de imágenes que deseas mostrar
+
+
+// const images = [
+//   'assets/img/kilimanjaro.jpg',
+//   'assets/img/kilimanjaro2.jpg',
+
+// ];
+
+// let currentIndex = 0;
+// const heroElement = document.getElementById('hero');
+
+// function changeBackgroundImage() {
+//   // Cambia la imagen de fondo
+//   heroElement.style.backgroundImage = `linear-gradient(rgba(55, 142, 181, 0.5), rgba(55, 142, 181, 0.2)), url('${images[currentIndex]}')`;
+
+//   // Cambia al siguiente índice de imagen
+//   currentIndex = (currentIndex + 1) % images.length;
+// }
+
+// // Cambia la imagen cada 5 segundos (5000ms)
+// setInterval(changeBackgroundImage, 10000);
+
+// // Inicia la primera imagen
+// changeBackgroundImage();
+
+
 (function() {
   "use strict";
 
