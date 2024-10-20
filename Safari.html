@@ -32,6 +32,66 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+  
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+    }
+  
+    th {
+      background-color: #99CCCC;
+      text-align: center;
+    }
+  
+    td ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .package {
+            margin-bottom: 20px; /* Espaciado entre paquetes */
+            padding: 10px;
+            border: 1px solid #ddd; /* Bordes de los paquetes */
+            display: flex; /* Para alinear el título y el contenido */
+        }
+
+        .package-title {
+            position: relative;
+            padding-left: 20px; /* Espacio para la línea */
+            margin-right: 20px; /* Espacio entre la línea y el contenido */
+            font-weight: bold; /* Hacer el título más destacado */
+        }
+
+        .package-title::before {
+            content: '';
+            position: absolute;
+            left: 0; /* Coloca la línea a la izquierda del título */
+            top: 0;
+            bottom: 0;
+            width: 2px; /* Ancho de la línea */
+            background-color: #000; /* Color de la línea */
+        }
+
+        .package-content {
+            padding-left: 20px; /* Espacio entre la línea y el texto */
+            flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
+        }
+        html {
+    scroll-padding-top: 100px; /* Ajusta según la altura de tu encabezado */
+}
+  </style>
+
 </head>
 
 <body>
@@ -126,10 +186,10 @@
       <div class="container">
 
         <div class="d-flex justify-content-between align-items-center">
-          <h2>Mount meru</h2>
+          <h2>Safari</h2>
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li>Mount Meru</li>
+            <li>Safari</li>
           </ol>
         </div>
 
@@ -174,10 +234,12 @@
               </ul>
             </div> -->
             <div class="portfolio-description">
-              <h2>Mount Meru</h2>
-              <p><strong>Mount Meru</strong> is a stratovolcano located just 80 km from Mount Kilimanjaro in the southeastern Arusha region. It stands as the fifth highest point in Africa and the second highest mountain in Tanzania, with an elevation of 4,567 meters. Climbing Mount Meru serves as an excellent acclimatization opportunity for those preparing to conquer Mount Kilimanjaro.</p>
+              <h2>Safari</h2>
+              <p>Tanzania is one of the premier wildlife adventure destinations in the world. It offers an iconic safari experience with some of the most renowned national parks and game reserves, perfect for a luxury safari holiday. Based on your travel interests and preferences, Tanzania stands out as the ideal location, home to the famous "Big Five," the Great Migration, vast plains, and one of the most diverse ecosystems on Earth, making it the ultimate wildlife destination.
 
-              <p>Join <strong>LIVIN' KILI EXPERIENCE</strong> to plan your unforgettable experience climbing Mount Meru in Tanzania.</p>
+                Below is a comprehensive highlight of the five national parks in the Northern Circuit, where we operate, offering the best safari experiences:</p>
+
+              <p>Join <strong>LIVIN' KILI EXPERIENCE</strong> to plan your unforgettable experience among the most gorgeous wildlife in Tanzania.</p>
               
             </div>
           </div>
@@ -188,34 +250,205 @@
     </section><!-- End Portfolio Details Section -->
     <section class="inner-page">
       <div class="container">
+        <div>
+          <section id="safari-packages">
 
-        <h2><strong>DESCRIPTION</strong></h2>
+          <h1>Safari Packages</h1>
 
-        <p>Situated within Arusha National Park, the trek up Mount Meru offers climbers a thrilling wildlife experience. The trail starts from Momella Gate, and trekkers are likely to encounter majestic elephants, buffalo, giraffes, warthogs, zebras, waterbucks, and beautiful primates on the lower slopes of Meru. Due to the presence of potentially aggressive animals, an armed ranger accompanies trekkers to ensure safety.</p>
-              
-        <p>The climb is accommodated in huts along the route, and the entire trek typically takes 3 to 4 days. However, we recommend a 4-day trek for a safer, smoother, and more successful experience.</p>
+
+
+          <table>
+            <thead>
+              <tr>
+                <th>Package</th>
+                <th>Price</th>
+                <th>Parks Visited</th>
+                <th>Highlights</th>
+                <th>Accommodation</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href="#4d" class="bold-black-link">4 Days Safari</a></td>
+                <td>4 Days</td>
+                <td>Tarangire, Serengeti, Ngorongoro Crater</td>
+                <td>
+                  <ul>
+                    <li>Game drive at Tarangire National Park</li>
+                    <li>Serengeti's endless plains and wildlife</li>
+                    <li>Ngorongoro Crater's unique ecosystem</li>
+                    <li>Olduvai Gorge visit</li>
+                  </ul>
+                </td>
+                <td>Ngorongoro Farm House, Serengeti Tented Camp, Ngorongoro Rhino Lodge</td>
+              </tr>
+              <tr>
+                <td><a href="#3d" class="bold-black-link">3 Days Safari</a></td>
+                <td>3 Days</td>
+                <td>Tarangire, Lake Manyara, Ngorongoro Crater</td>
+                <td>
+                  <ul>
+                    <li>Tarangire's large elephant population</li>
+                    <li>Lake Manyara's tree-climbing lions</li>
+                    <li>Ngorongoro Crater's "Big Five"</li>
+                  </ul>
+                </td>
+                <td>Tented Camp, Ngorongoro Farm House</td>
+              </tr>
+              <tr>
+                <td>2 Days Safari</td>
+                <td>2 Days</td>
+                <td>Tarangire, Ngorongoro Crater</td>
+                <td>
+                  <ul>
+                    <li>Tarangire River's wildlife gathering</li>
+                    <li>Ngorongoro Crater's stunning views and wildlife</li>
+                  </ul>
+                </td>
+                <td>Tented Camp</td>
+              </tr>
+              <tr>
+                <td>1 Day Safari</td>
+                <td>1 Day</td>
+                <td>You choose!</td>
+                <td>
+                  <ul>
+                    <li>Flexible one-day tours</li>
+                    <li>Nearby attractions: Kikuletwa Hot Springs, Materuni Waterfalls</li>
+                  </ul>
+                </td>
+                <td>N/A (Day Trip)</td>
+              </tr>
+            </tbody>
+          </table>
+          <br><br><br><br>
+
+
+          <h2 id="4d">4 Days Safari (Tarangire, Serengeti, Ngorongoro Crater)</h2>
+          <div class="package">
+            <div class="package-title">Day 1</div>
+            <div class="package-content">
+                <p><strong> Arusha to Tarangire National Park. Distance: 140km (2-3 hours).</strong></p>
+                <p>After breakfast, the tour begins. We stop at Arusha town for any purchases before heading to Tarangire National Park for a game drive. Tarangire is home to a <b>large elephant population</b> and iconic <b>baobab trees</b>, with a high concentration of wildlife. <b>The Tarangire River</b>, the only source of water during the dry season, attracts herds of elephants, giraffes, zebras, and antelopes. Predators like lions, cheetahs, and leopards take the opportunity to strike. Dinner and overnight at Ngorongoro Farm House.</p>
+            </div>
+        </div>
+    
+        <div class="package">
+            <div class="package-title">Day 2</div>
+            <div class="package-content">
+                <p><strong>Serengeti National Park. Distance: 145 km (3-4 hours)</strong></p>
+                <p>After breakfast, we drive to Serengeti National Park, the heart of African wildlife. We'll explore the Seronera area, known for its rich wildlife habitats and the Seronera River, providing water to the region. After a picnic lunch, we continue with the game drive. Dinner and overnight at Serengeti Tented Camp.</p>
+            </div>
+        </div>
+    
+        <div class="package">
+            <div class="package-title">Day 3</div>
+            <div class="package-content">
+                <p><strong>Serengeti to Ngorongoro Crater. Distance: 145 km (2-3 hours)</strong></p>
+                <p>Early morning game drive as we head to Ngorongoro Conservation Area. On the way, we stop at Olduvai Gorge, where the "Cradle of Mankind" was discovered by Dr. Louis Leakey. Dinner and overnight at Ngorongoro Rhino Lodge.</p>
+            </div>
+        </div>
+    
+        <div class="package">
+            <div class="package-title">Day 4</div>
+            <div class="package-content">
+              <p><strong>Ngorongoro Crater to Arusha. Distance: 210 km (3-4 hours)</strong></p>
+              <p>After breakfast, we descend into the Ngorongoro Crater, home to a stunning ecosystem and a wide variety of wildlife, including the endangered Black Rhino. After a game drive and lunch, we head back to Arusha town.</p>
+            </div>
+        </div>
+        <br><br>
+
+        <h2 id="3d">3 Days Safari (Tarangire, Lake Manyara, Ngorongoro Crater)</h2>
+        <div class="package">
+          <div class="package-title">Day 1</div>
+          <div class="package-content">
+              <p><strong> Arusha to Tarangire National Park. Distance: 140km (2-3 hours).</strong></p>
+              <p>After breakfast, the tour begins. We stop at Arusha town for any purchases before heading to Tarangire National Park for a game drive. Tarangire is home to a <b>large elephant population</b> and iconic <b>baobab trees</b>, with a high concentration of wildlife. <b>The Tarangire River</b>, the only source of water during the dry season, attracts herds of elephants, giraffes, zebras, and antelopes. Predators like lions, cheetahs, and leopards take the opportunity to strike. Dinner and overnight at tented camp.</p>
+          </div>
+      </div>
+  
+      <div class="package">
+          <div class="package-title">Day 2</div>
+          <div class="package-content">
+              <p><strong>Lake Manyara National Park. Distance: 50 km (2 hours)</strong></p>
+              <p>After breakfast, we head to Lake Manyara National Park, known for its tree-climbing lions and large population of baboons. The park's stunning scenery includes woodlands, hot springs, and diverse wildlife. Dinner and overnight at Ngorongoro Farm House.</p>
+          </div>
+      </div>
+  
+      <div class="package">
+          <div class="package-title">Day 3</div>
+          <div class="package-content">
+              <p><strong>Ngorongoro Crater to Arusha. Distance: 210 km (3-4 hours)</strong></p>
+              <p>After descending into the Ngorongoro Crater for an early morning game drive, you'll witness a vast variety of wildlife, including the endangered Black Rhino and the "Big Five." After the game drive, we'll head back to Arusha town.</p>
+          </div>
+      </div>
+
+      <br><br>
+
+                <div>
+                  <h2>3 Days Safari (Tarangire, Lake Manyara, Ngorongoro Crater)</h2>
+                  
+                  <h3>Day 1: Arusha to Tarangire National Park</h3>
+                  <p><strong>Distance:</strong> 140 km (2-3 hours)</p>
+                  <p>We begin the tour with a stop at Arusha town before proceeding to Tarangire National Park for a game drive. The park's river attracts wildlife, making it a great place to see elephants, zebras, giraffes, and antelopes. Dinner and overnight at a tented camp.</p>
+                  
+                  <h3>Day 2: Lake Manyara National Park</h3>
+                  <p><strong>Distance:</strong> 50 km (2 hours)</p>
+                  <p>After breakfast, we head to Lake Manyara National Park, known for its tree-climbing lions and large population of baboons. The park's stunning scenery includes woodlands, hot springs, and diverse wildlife. Dinner and overnight at Ngorongoro Farm House.</p>
+                  
+                  <h3>Day 3: Ngorongoro Crater to Arusha</h3>
+                  <p><strong>Distance:</strong> 210 km (3-4 hours)</p>
+                  <p>After descending into the Ngorongoro Crater for an early morning game drive, you'll witness a vast variety of wildlife, including the endangered Black Rhino and the "Big Five." After the game drive, we'll head back to Arusha town.</p>
+                </div>
+
+                <div>
+                  <h2>2 Days Safari (Tarangire & Ngorongoro Crater)</h2>
+                  
+                  <h3>Day 1: Arusha to Tarangire National Park</h3>
+                  <p><strong>Distance:</strong> 140 km (2-3 hours)</p>
+                  <p>After breakfast, we head to Tarangire National Park for a game drive. During the dry season, the Tarangire River is the only water source, attracting wildlife such as elephants, zebras, and giraffes. Dinner and overnight at a tented camp.</p>
+                  
+                  <h3>Day 2: Ngorongoro Crater to Arusha</h3>
+                  <p><strong>Distance:</strong> 210 km (3-4 hours)</p>
+                  <p>We descend into the Ngorongoro Crater to witness its stunning wildlife, including elephants, zebras, and the endangered Black Rhino. After the game drive, we return to Arusha town.</p>
+                </div>
+
+                <div>
+                  <h2>1 Day Safari</h2>
+                  <p>If you have limited time, you can still experience an unforgettable safari adventure in Tanzania. We offer day trips to all of Tanzania's northern circuit parks, including Arusha National Park, Serengeti, Lake Manyara, Ngorongoro Crater, and Tarangire. You can also visit nearby attractions like Kikuletwa (Chemka) Hot Springs and Materuni Waterfalls, close to Moshi town.</p>
+                </div>
+              </section>
+                      
+              <div>
+                <h2>&#8226; Arusha National Park</h2>
+                <p>Welcome to Arusha National Park, a rewarding hiking destination. Located close to Arusha city (Safari City), it is accessible by road from Arusha town, about 32 km away. This park, home to the second-highest mountain in Tanzania, offers an unforgettable experience and serves as a great acclimatization refuge for climbing Mount Kilimanjaro.</p>
+                <p>The park is rich in wildlife, offering game drives, walking safaris, canoeing, cycling, and horse riding. You can spot elephants, buffaloes, giraffes, warthogs, zebras, and antelopes. Notable sights include Little Serengeti (Serengeti Ndogo) and Buffalo Glade, which are truly breathtaking. Other highlights are the Ngurdoto and Meru Craters, Lake Momella, Longili, and the Tululusia Hill and Waterfalls. Accommodation is available at luxury lodges like Momella Wildlife Lodge and tented camps within the park. Visit the park and experience African culture for a lifetime memory.</p>
+              </div>
+
+              <div>
+                <h2>&#8226; Lake Manyara National Park</h2>
+                <p>Located in the northern part of the Tarangire and Ngorongoro Conservation Area, Lake Manyara National Park is renowned for its diverse ecosystem and wildlife. It is home to tree-climbing lions, pink flamingos, hippos in the soda lake, herds of elephants and buffaloes, zebras, wildebeests, and flocks of birds. This park is ideal for a safari holiday, with accommodation at luxury lodges and tented camps inside the park.</p>
+              </div>
+
+              <div>
+                <h2>&#8226; Tarangire National Park</h2>
+                <p>Tarangire National Park is one of the best parks in the northern circuit, known for its large elephant population and baobab trees. It offers a day or two-day visit, recommended to experience the full beauty of the park. The Tarangire River, located in the middle of the park, provides a source of water during the dry season, attracting large herds of elephants, buffaloes, giraffes, zebras, wildebeests, and antelopes, which in turn draws predators such as lions, leopards, and cheetahs.</p>
+                <p>The best time to visit is from June to October, which is the dry season and the ideal time to witness the migratory cycle of animals. Accommodation options include luxury lodges and tented camps in the park.</p>
+              </div>
+
+              <div>
+                <h2>&#8226; Ngorongoro Conservation Area</h2>
+                <p>Ngorongoro Conservation Area is one of Africa's natural wonders and a UNESCO World Heritage site, making it one of the most extraordinary destinations in Africa. It is one of the few places where you can see the "Big Five" in a single day, including the endangered Black Rhino. The area is named after the Ngorongoro Crater, which has 600-meter-high walls and spans 260 square kilometers.</p>
+                <p>The caldera supports both human life and over 25,000 animals. Visitors can also witness the migration of two million wildebeests, zebras, and antelopes to Masai Mara. Additional attractions include Maasai cultural villages and the Olduvai Gorge, where you can see ancient human footprints at the museum. Accommodation is available at luxury lodges and tented camps.</p>
+              </div>
+
+              <div>
+                <h2>&#8226; Serengeti National Park</h2>
+                <p>Serengeti National Park is one of the Seven Natural Wonders of Africa and a UNESCO World Heritage site. It is a top destination for wildlife safaris and is famous for the Great Migration, where herds of wildebeests and zebras cross the Mara River to Masai Mara in search of green pastures. The vast plains of the Serengeti are home to the Big Five and over 500 species of birds.</p>
+                <p>The park's stunning scenery offers a paradise for wildlife photographers. It is also known as the filming location for "The Lion King" movie. The best time to visit is during the dry season from June to October and from January to March. From May to November, the park offers something special for every visitor. Accommodation includes luxury lodges and tented camps within the park.</p>
         
-        <p>Notably, the movie <em>Hatari!</em> was filmed at the foot of Mount Meru in 1962 by the American adventure romantic comedy legend John Wayne.</p>
+        </div>
         
-        <p>
-          <h2><strong>ITINERARY</strong></h2>
-
-          <p><strong>Day 1:</strong> Arrival at Kilimanjaro International Airport. Upon arrival, you will meet our staff who will pick you up from the airport and take you to the hotel. A pre-climbing briefing will be conducted, and you will overnight at the hotel.</p>
-          
-          <p><strong>Day 2:</strong> <strong>Momella Gate to Miriakamba Hut</strong><br>
-          We’ll drive you and the mountain crew from the hotel to Momella Gate (1,500m) for registration and other formalities before starting our trek. The hike begins with an armed ranger and guides up Mount Meru. Along the way, we may see buffalo, giraffes, zebras, and warthogs as we trek through tropical rainforest, Mio Waterfalls, and Fig Tree Arch to Miriakamba Huts (2,500m). The distance covered is 14 km, taking 4-6 hours. Dinner and overnight at the huts.</p>
-          
-          <p><strong>Day 3:</strong> <strong>Miriakamba Huts to Saddle Huts</strong><br>
-          After breakfast, we start climbing through the rainforest, entering the heather and moorland vegetation zone to reach Saddle Hut (3,550m). You will be welcomed with a hot lunch. After lunch, the best option is to head to Little Meru (3,820m) for acclimatization, then return to Saddle Hut. The hike takes approximately 3-4 hours for 6 km.</p>
-          
-          <p><strong>Day 4:</strong> <strong>Saddle Hut, Summit to Miriakamba Hut</strong><br>
-          You will be woken up at midnight with tea and snacks, ready for the summit. The hike begins on a steep trail to Rhino Point (3,821m), Cobra Point, and along the ridge of ash up to Socialist Peak (4,567m). The sunrise behind majestic Kilimanjaro, with a fantastic view of Mount Meru’s crater and its ash cone, is breathtaking. After summiting, we will descend back to Saddle Hut for brunch, then continue down to Miriakamba Hut for dinner and overnight. The hike takes 12-14 hours, covering 18 km.</p>
-          
-          <p><strong>Day 5:</strong> <strong>Miriakamba to Momella Gate</strong><br>
-          After a delicious breakfast, we'll descend quickly through the tropical rainforest, passing Tululusia Waterfalls and Little Serengeti to reach Momella Gate. A certificate of successful summit appreciation will be given, and you will meet our staff for the drive back to the hotel.</p>
-          
-          <p><strong>Day 6:</strong> <strong>Departure Day</strong><br>
-          On this day, our team will either take you to Kilimanjaro, on a wildlife safari, or bid you goodbye as they drive you to the airport.</p>
           
 
 <!-- <h3 ><strong>PRICES</strong></h3>
