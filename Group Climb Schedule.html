@@ -60,35 +60,35 @@
         }
 
         .package {
-            margin-bottom: 20px; /* Espaciado entre paquetes */
+            margin-bottom: 20px;
             padding: 10px;
-            border: 1px solid #ddd; /* Bordes de los paquetes */
-            display: flex; /* Para alinear el título y el contenido */
+            border: 1px solid #ddd; 
+            display: flex;
         }
 
         .package-title {
             position: relative;
-            padding-left: 20px; /* Espacio para la línea */
-            margin-right: 20px; /* Espacio entre la línea y el contenido */
-            font-weight: bold; /* Hacer el título más destacado */
+            padding-left: 20px; 
+            margin-right: 20px; 
+            font-weight: bold; 
         }
 
         .package-title::before {
             content: '';
             position: absolute;
-            left: 0; /* Coloca la línea a la izquierda del título */
+            left: 0; 
             top: 0;
             bottom: 0;
-            width: 2px; /* Ancho de la línea */
-            background-color: #000; /* Color de la línea */
+            width: 2px; 
+            background-color: #000; 
         }
 
         .package-content {
-            padding-left: 20px; /* Espacio entre la línea y el texto */
-            flex-grow: 1; /* Permite que el contenido ocupe el espacio restante */
+            padding-left: 20px;
+            flex-grow: 1; 
         }
-        html {
-    scroll-padding-top: 100px; /* Ajusta según la altura de tu encabezado */
+        html {                      /*id links fix*/
+    scroll-padding-top: 100px; 
 }
 
 .cta {
@@ -105,6 +105,7 @@
 
         .mobile-only {
     display: none;
+    color: solid red;
   }
 
   @media (max-width: 768px) {
